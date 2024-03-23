@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Digital Brand</title>
+  <!---------- favicon link -------->
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon_io/favicon-16x16.png" />
+  <!---------- favicon link -------->
+  <!---------- link css ------------>
+  <link rel="stylesheet" href="style.css" />
+  <!---------- link css ------------>
+  <!---------- Font Icon ----------->
+  <link rel="stylesheet"
+    href="https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css" />
+  <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css" />
+  <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css" />
+  <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css" />
+  <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css" />
+  <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-solid-straight/css/uicons-solid-straight.css" />
+  <!---------- Font Icon ----------->
+  <!---------- swiper js ----------->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <!---------- swiper js ----------->
+  <!-----------jquery link --------->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <!-----------jquery link --------->
+  <!-----------Aos    link --------->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <!-----------Aos    link --------->
+</head>
+
+<body>
+  <!-----------Top Area ------------>
+  <a href="#header"><i class="fi fi-rr-caret-up" id="upper"></i></a>
+  <!-----------Top Area ------------>
+  <!-----------Animation Area ------>
+  <div class="loading">
+    <img src="img/loader.gif" alt="" />
+  </div>
+  <!-----------Animation Area ------>
+
+  <!-----------Header Area --------->
+  <section class="header" id="header">
+    <div class="container">
+      <a href="#"><img src="img/logo.png" alt="" /></a>
+      <div class="navbar">
+        <div class="link">
+          <a href="#header" id="home">Home</a>
+          <a href="#abo">About</a>
+          <a href="#ser">Service</a>
+          <a href="#">Portfolio</a>
+          <a href="#blog">Blog</a>
+          <a href="#con" id="con">Contact</a>
+        </div>
+      </div>
+      <div class="right">
+        <i class="fi fi-br-menu-burger" id="menu"></i>
+        <div class="button">
+          <i class="fi fi-sr-user" id="pro"></i>
+          <button id="button1">sign up</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-----------Header Area --------->
+
+  <!-----------Hero   Area --------->
+
+  <section class="hero-area" id="hero-area">
+    <div class="container">
+      <div class="text" data-aos="fade-right" data-aos-duration="3100">
+        <h6>digital brand</h6>
+        <h1>
+          Top Digital
+          <span>Marketing<br />
+            Company</span>
+          For Big, Mid<br />
+          & Small Industries
+        </h1>
+        <p>
+          We generate quality leads and enquiries using Advanced SEO<br />
+          strategy, Google Ad Campaign, Social Media Marketing,and<br />
+          compelling CTA Landing Pages. We have been doing it since 2015.
+        </p>
+        <div class="hero-button">
+          <button>start now</button>
+          <a href="#">learn more</a>
+        </div>
+      </div>
+      <div class="image" data-aos="fade-up" data-aos-duration="3100">
+        <div class="search-area">
+          <h5>search here</h5>
+          <div class="input">
+            <input type="search" name="search" id="search" placeholder="search" />
+            <i class="fi fi-br-search"></i>
+          </div>
+        </div>
+        <div class="i1">
+          <img src="img/i1.png" alt="" />
+        </div>
+
+        <div class="i2">
+          <img src="img/i2.png" alt="" />
+        </div>
+
+        <div class="i3">
+          <img src="img/i3.png" alt="" />
+        </div>
+        <img src="img/hero.png" alt="" />
+      </div>
+    </div>
+  </section>
+
+  <!-----------Hero   Area --------->
+
+  <!---------- Our    offer --------->
+  <section class="offer" id="offer">
+    <div class="heading">
+      <h1>Take a Walk Through <span>Our Services</span></h1>
+    </div>
+    <div class="slider-box">
+      <div class="slider" onmouseover="mOver()" onmouseout="mOut()" id="slider">
+        <div class="box">
+          <div class="icon">
+            <i class="fi fi-sr-browser"></i>
+          </div>
+          <div class="text">
+            <h1>branding & graphic</h1>
+            <p>
+              It is your voice. It is how you express what your<br />company
+              believes in and stands for. In this day<br />and age, these
+              things are undeniably
+            </p>
+            <div class="button" id="button">
+              <a href="#" id="b1">learn more<i class="fi fi-rr-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slider" onmouseover="mOver2()" onmouseout="mOut2()" id="slider2">
+        <div class="box">
+          <div class="icon">
+            <i class="fi fi-sr-bullhorn"></i>
+          </div>
+          <div class="text">
+            <h1>eCommerce Developer</h1>
+            <p>
+              It is your voice. It is how you express what your<br />company
+              believes in and stands for. In this day<br />and age, these
+              things are undeniably
+            </p>
+            <div class="button">
+              <a href="#" id="b2">learn more<i class="fi fi-rr-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slider" onmouseover="mOver3()" onmouseout="mOut3()" id="slider3">
+        <div class="box">
+          <div class="icon">
+            <i class="fi fi-rr-display-code"></i>
+          </div>
+          <div class="text">
+            <h1>Web Development</h1>
+            <p>
+              It is your voice. It is how you express what your<br />company
+              believes in and stands for. In this day<br />and age, these
+              things are undeniably
+            </p>
+            <div class="button">
+              <a href="#" id="b3">learn more<i class="fi fi-rr-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!---------- Our    offer --------->
+
+  <!-----------About us Area ------->
+  <section class="abo" id="abo">
+    <div class="container">
+      <div class="image" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+        <img src="img/about.png" alt="" />
+      </div>
+      <div class="text" data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
+        <h5>about us</h5>
+        <h1>
+          Website Designing &
+          <span>Digital<br />
+            Marketing</span>
+          Company In<br />
+          Kolkata,India
+        </h1>
+        <p>
+          When it comes to giving your business digital wings, everyone on our
+          team is an expert.<br />We base our footing on an effective
+          strategy, updated technology, rigorous research
+        </p>
+        <div class="m">
+          <h6>our mission</h6>
+          <p>
+            As far as website design, development, and digital marketing
+            are<br />concerned, Digital Brand is the best pick. We turn every
+            stone to<br />stretch your business and market reach to prep your
+            brand for<br />
+            the long run. We help businesses capture leads and build brand<br />awareness
+            by brushing up their online presence.
+          </p>
+        </div>
+
+        <div class="m">
+          <h6>our vision</h6>
+          <p>
+            We craft one-of-a-kind web designs blended with Google<br />search
+            (SEO), online ads, and content strategy for an uptick<br />in your
+            business. We do not build services to make money; We<br />make
+            money by building better services
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-----------About us Area ------->
+
+  <!-----------Reviews  Area ------->
+  <section class="tes" id="tes">
+    <h1>what our <span>client</span> says</h1>
+    <div class="swiper tes-slider">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide box">
+          <div class="image-data">
+            <img src="img/t1.png" alt="" />
+            <div class="text">
+              <h2>willamson</h2>
+              <p>ui/ux designer</p>
+              <div class="icon">
+                <i class="fi fi-ss-star"></i>
+                <i class="fi fi-ss-star"></i>
+                <i class="fi fi-ss-star"></i>
+                <i class="fi fi-ss-star"></i>
+                <i class="fi fi-ss-star"></i>
+              </div>
+            </div>
+          </div>
+          <p id="para">
+            we specialize in crafting bespoke digital marketing solutions
+            tailored<br />to amplify your brand's reach,engage your target
+            audience, and drive<br />meaningful conversions. Our team of
+            creativity and experts.
+          </p>
+        </div>
+
+        <div class="swiper-slide box">
+          <div class="image-data">
+            <img src="img/t2.png" alt="" />
+            <div class="text">
+              <h2>john smith</h2>
+              <p>ui/ux designer</p>
+              <div class="icon">
+                <i class="fi fi-ss-star"></i>
+                <i class="fi fi-ss-star"></i>
+                <i class="fi fi-ss-star"></i>
+                <i class="fi fi-ss-star"></i>
+                <i class="fi fi-ss-star"></i>
+              </div>
+            </div>
+          </div>
+          <p id="para">
+            we specialize in crafting bespoke digital marketing solutions
+            tailored<br />to amplify your brand's reach,engage your target
+            audience, and drive<br />meaningful conversions. Our team of
+            creativity and experts.
+          </p>
+        </div>
+
+        <div class="swiper-slide box">
+          <div class="image-data">
+            <img src="img/t3.png" alt="" />
+            <div class="text">
+              <h2>Latricia P</h2>
+              <p>ui/ux designer</p>
+              <div class="icon">
+                <i class="fi fi-ss-star"></i>
+                <i class="fi fi-ss-star"></i>
+                <i class="fi fi-ss-star"></i>
+                <i class="fi fi-ss-star"></i>
+                <i class="fi fi-ss-star"></i>
+              </div>
+            </div>
+          </div>
+          <p id="para">
+            we specialize in crafting bespoke digital marketing solutions
+            tailored<br />to amplify your brand's reach,engage your target
+            audience, and drive<br />meaningful conversions. Our team of
+            creativity and experts.
+          </p>
+        </div>
+
+        <div class="swiper-slide box">
+          <div class="image-data">
+            <img src="img/t1.png" alt="" />
+            <div class="text">
+              <h2>willamson</h2>
+              <p>ui/ux designer</p>
+              <div class="icon">
+                <i class="fi fi-ss-star"></i>
+                <i class="fi fi-ss-star"></i>
+                <i class="fi fi-ss-star"></i>
+                <i class="fi fi-ss-star"></i>
+                <i class="fi fi-ss-star"></i>
+              </div>
+            </div>
+          </div>
+          <p id="para">
+            we specialize in crafting bespoke digital marketing solutions
+            tailored<br />to amplify your brand's reach,engage your target
+            audience, and drive<br />meaningful conversions. Our team of
+            creativity and experts.
+          </p>
+        </div>
+
+        <div class="swiper-slide box">
+          <div class="image-data">
+            <img src="img/t2.png" alt="" />
+            <div class="text">
+              <h2>john smith</h2>
+              <p>ui/ux designer</p>
+              <div class="icon">
+                <i class="fi fi-ss-star"></i>
+                <i class="fi fi-ss-star"></i>
+                <i class="fi fi-ss-star"></i>
+                <i class="fi fi-ss-star"></i>
+                <i class="fi fi-ss-star"></i>
+              </div>
+            </div>
+          </div>
+          <p id="para">
+            we specialize in crafting bespoke digital marketing solutions
+            tailored<br />to amplify your brand's reach,engage your target
+            audience, and drive<br />meaningful conversions. Our team of
+            creativity and experts.
+          </p>
+        </div>
+
+        <div class="swiper-slide box">
+          <div class="image-data">
+            <img src="img/t3.png" alt="" />
+            <div class="text">
+              <h2>Latricia P</h2>
+              <p>ui/ux designer</p>
+              <div class="icon">
+                <i class="fi fi-ss-star"></i>
+                <i class="fi fi-ss-star"></i>
+                <i class="fi fi-ss-star"></i>
+                <i class="fi fi-ss-star"></i>
+                <i class="fi fi-ss-star"></i>
+              </div>
+            </div>
+          </div>
+          <p id="para">
+            we specialize in crafting bespoke digital marketing solutions
+            tailored<br />to amplify your brand's reach,engage your target
+            audience, and drive<br />meaningful conversions. Our team of
+            creativity and experts.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-----------Reviews  Area ------->
+
+  <!-----------Blogs    Area ------->
+  <section class="blog" id="blog">
+    <h1>marketing <span>blog</span></h1>
+    <div class="container">
+      <div class="box" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
+        <img src="img/b1.png" alt="" />
+        <div class="date">
+          <p>28</p>
+          <p>.</p>
+          <p>11</p>
+          <p>.</p>
+          <p>2024</p>
+        </div>
+        <div class="text">
+          <h2>
+            How to integrate an<br />
+            e-commerce cart with<br />
+            GA4 for measuring profit?
+          </h2>
+          <a href="#"><button>read more<i class="fi fi-rr-arrow-right"></i></button></a>
+        </div>
+      </div>
+
+      <div class="box" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
+        <img src="img/b2.png" alt="" />
+        <div class="date">
+          <p>18</p>
+          <p>.</p>
+          <p>2</p>
+          <p>.</p>
+          <p>2024</p>
+        </div>
+        <div class="text">
+          <h2>
+            The importance of<br />
+            Google review in<br />
+            today’s digital world
+          </h2>
+          <a href="#"><button>read more<i class="fi fi-rr-arrow-right"></i></button></a>
+        </div>
+      </div>
+
+      <div class="box" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
+        <img src="img/b3.png" alt="" />
+        <div class="date">
+          <p>29</p>
+          <p>.</p>
+          <p>2</p>
+          <p>.</p>
+          <p>2024</p>
+        </div>
+        <div class="text">
+          <h2>
+            How online marketing can<br />
+            take your startups<br />
+            to success
+          </h2>
+          <a href="#"><button>read more<i class="fi fi-rr-arrow-right"></i></button></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-----------Blogs----Area------->
+
+  <!-----------Faqs-----Area------->
+  <section class="faq" id="faq">
+    <h1>frequently asked <span>question</span></h1>
+    <div class="container">
+      <div class="accordian">
+        <div class="faq-box">
+          <div class="left-data">
+            <h6>01</h6>
+            <h4>Does my case qualify?</h4>
+          </div>
+          <i class="down-arrow fi fi-rr-caret-down"></i>
+        </div>
+        <div class="answer">
+          <p>
+            A personal injury case will seek compensation from the at-fault
+            party for all losses that came from an<br />injury. That includes
+            any lost wages that resulted from being temporarily unable to work
+            or unable to<br />work ever again due to permanent disabilities.
+            Proving how much you lost and how your ability to work<br />has
+            been impacted can result in full and fair compensation. In the
+            event that you were injured while on
+          </p>
+        </div>
+      </div>
+
+      <div class="accordian">
+        <div class="faq-box">
+          <div class="left-data">
+            <h6>02</h6>
+            <h4>Who will pay for my lost wages?</h4>
+          </div>
+          <i class="down-arrow fi fi-rr-caret-down"></i>
+        </div>
+        <div class="answer">
+          <p>
+            A personal injury case will seek compensation from the at-fault
+            party for all losses that came from an<br />injury. That includes
+            any lost wages that resulted from being temporarily unable to work
+            or unable to<br />work ever again due to permanent disabilities.
+            Proving how much you lost and how your ability to work<br />has
+            been impacted can result in full and fair compensation. In the
+            event that you were injured while on
+          </p>
+        </div>
+      </div>
+
+      <div class="accordian">
+        <div class="faq-box">
+          <div class="left-data">
+            <h6>03</h6>
+            <h4>What should I do now?</h4>
+          </div>
+          <i class="down-arrow fi fi-rr-caret-down"></i>
+        </div>
+        <div class="answer">
+          <p>
+            A personal injury case will seek compensation from the at-fault
+            party for all losses that came from an<br />injury. That includes
+            any lost wages that resulted from being temporarily unable to work
+            or unable to<br />work ever again due to permanent disabilities.
+            Proving how much you lost and how your ability to work<br />has
+            been impacted can result in full and fair compensation. In the
+            event that you were injured while on
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-----------Faqs-----Area------->
+
+  <!-----------Contact--Area------->
+  <section class="con" id="con">
+    <div class="heading">
+      <h1>Have a Project <span>on mind?</span></h1>
+      <p id="para-con">We can help you bring your ideas to life. Let’s talk about<br>
+        what we can build and raise together.</p>
+    </div>
+    <div class="container">
+      <div class="left-data">
+        <div class="icons">
+          <div class="i">
+            <img src="img/l.png" alt="" />
+          </div>
+          <div class="text">
+            <h3>Address</h3>
+            <p>28, Kabi Mohit Lal Road, Ground<br>Floor. Near Jajabor Club, Jack &<br>Jill School. Kolkata - 700078,
+              India</p>
+          </div>
+        </div>
+        <div class="icons" id="phone">
+          <div class="i">
+            <img src="img/p.png" alt="" />
+          </div>
+          <div class="text">
+            <h3>Phone</h3>
+            <p>+91 9147-092889 / 8910-460527</p>
+          </div>
+        </div>
+        <div class="icons">
+          <div class="i">
+            <img src="img/e.png" alt="" />
+          </div>
+          <div class="text">
+            <h3>Email</h3>
+            <p>info@digitalbrand.world</p>
+          </div>
+        </div>
+      </div>
+
+      <form action="https://api.web3forms.com/submit" method="post">
+        <input type="hidden" name="access_key" value="53e5b902-8694-48e5-bc31-ff291e342bf8">
+        <div class="input-top">
+          <input type="text" name="name" id="name" placeholder="first name" required>
+          <input type="number" name="number" id="number" placeholder="number" required>
+          <input type="email" name="email" id="email" placeholder="email address" required>
+        </div>
+        <div class="center-input">
+          <select name="companyname" id="companyname" required>
+            <option value="companyname">company name</option>
+            <option value="company1">company 1</option>
+            <option value="company2">company 2</option>
+            <option value="company3">company 3</option>
+            <option value="company4">company 4</option>
+          </select>
+
+          <select name="budget" id="budget" required>
+            <option value="budget">budget</option>
+            <option value="10k">10k</option>
+            <option value="20k">20k</option>
+            <option value="30k">30k</option>
+            <option value="40k">40k</option>
+          </select>
+        </div>
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="message" required></textarea>
+        <!-- hCaptcha Spam Protection -->
+        <div class="h-captcha" data-captcha="true" aria-required="true"></div>
+        <button type="submit" id="submit" name="submit">contact us</button>
+      </form>
+  </section>
+  <!-----------Contact--Area------->
+
+  <!-----------Footer--Area-------->
+  <section class="footer" id="footer">
+    <div class="container">
+      <div class="image">
+        <img src="img/footer-logo.png" alt="">
+      </div>
+      <div class="navbar">
+        <div class="link">
+          <a href="#header" id="home">Home</a>
+          <a href="#abo">About</a>
+          <a href="#ser">Service</a>
+          <a href="#">Portfolio</a>
+          <a href="#blog">Blog</a>
+          <a href="#con" id="con">Contact</a>
+        </div>
+      </div>
+      <div class="social">
+        <i class="fi fi-brands-facebook"></i>
+        <i class="fi fi-brands-instagram"></i>
+        <i class="fi fi-brands-twitter"></i>
+        <i class="fi fi-brands-youtube"></i>
+      </div>
+    </div>
+    <div class="last">
+      <p>Copyright © 2024 digital brand | Powered by My Media Matte</p>
+    </div>
+  </section>
+  <!-----------Footer--Area-------->
+</body>
+<!---------- swiper js ----------->
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<!---------- swiper js ----------->
+<!---------- javascript ---------->
+<script src="style.js"></script>
+<!---------- javascript ---------->
+<!-----------jquery link --------->
+<script src="jquery-3.6.4.min.js"></script>
+<!-----------jquery link --------->
+<!-----------Aos    link --------->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<!-----------Aos    link---------->
+<!-- Required for hCaptcha -->
+<script src="https://web3forms.com/client/script.js" async defer></script>
+
+</html>
